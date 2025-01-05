@@ -16,9 +16,9 @@
     "test": "node --test"
   },
   "dependencies": {
-    "probot": "^13.0.1",
-    "probot-stale": "^1.0.0",
-    "@probot/adapter-azure-functions": "^1.0.12"
+    "@probot/adapter-azure-functions": "^1.0.12",
+    "probot": "^13.4.1",
+    "probot-stale": "^1.0.0"
   },
   "devDependencies": {
     "@azure/functions": "^1.2.3",
@@ -27,7 +27,8 @@
     "smee-client": "^2.0.0"
   },
   "engines": {
-    "node": ">= 18"
+  "node": ">=18.0.0",
+  "npm": ">=8.0.0"
   },
   "type": "module"
 }
