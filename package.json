@@ -1,0 +1,33 @@
+{
+  "name": "kubefirst-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Welcome to the Kubefirst repository under Konstruct! We’ve set up Probot to make contributing to this project a smooth and enjoyable experience.",
+  "author": "Aviral Singh",
+  "license": "ISC",
+  "homepage": "https://github.com//",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "probot": "^13.0.1",
+    "probot-stale": "^1.0.0",
+    "@probot/adapter-azure-functions": "^1.0.12"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.2.3",
+    "nock": "^14.0.0-beta.5",
+    "nodemon": "^3.1.7",
+    "smee-client": "^2.0.0"
+  },
+  "engines": {
+    "node": ">= 18"
+  },
+  "type": "module"
+}
